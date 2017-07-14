@@ -16,6 +16,10 @@ body {
     width:25%;
 }
 
+.mapboxgl-canvas{
+    width:1080px!important;
+}
+
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -38,10 +42,6 @@ body {
     width:25%!important;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
 #main {
     transition: margin-left .5s;
@@ -55,3 +55,33 @@ body {
     margin-left:25%;
 }
 
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+@media screen and (min-width: 320px) {
+    
+    #map{
+        height:2000px!important;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1095px) {
+    
+    #map{
+        height:2000px!important;
+    }
+
+    .mapboxgl-canvas{
+        width:1440px!important;
+    }
+
+
+
+}

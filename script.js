@@ -1,9 +1,13 @@
 function openNav() {
     document.getElementById("mySidenav").style.width = "25%";
+    document.getElementById("map").style.width = "75%";
+    document.getElementById("map").style.margin = "0 0 0 25%";
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("map").style.margin = "0 0 0 0";
+    document.getElementById("map").style.width = "100%";
 }
 
 
